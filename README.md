@@ -6,6 +6,8 @@ Preview: https://streamable.com/eyl9xy
 
 Requirements:
 
+-Map: https://github.com/SpireTM/kontti-ymap
+
 -es_extended legacy
 
 -ox_lib
