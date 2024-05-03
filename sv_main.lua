@@ -43,7 +43,7 @@ AddEventHandler('esx_containerrob:giveLoot', function(containerindex, cabinetind
     local position = GetEntityCoords(ped)
 
     if #(position - savedData[containerindex].doorcoords) >= 20 then
-        return print('ID: '..source..' koitti triggeraa esx_containerrob:giveLoot liian kaukana kontista!')
+        return print('Do something about this modder!')
     end
 
     local totalAmountofLoot = 0
