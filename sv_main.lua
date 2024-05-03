@@ -42,9 +42,9 @@ AddEventHandler('esx_containerrob:giveLoot', function(containerindex, cabinetind
     local ped = GetPlayerPed(source)
     local position = GetEntityCoords(ped)
 
-    if #(position - savedData[containerindex].doorcoords) >= 20 then
-        return print('Do something about this modder!')
-    end
+    if #(position - savedData[containerindex].doorcoords) >= 20 then --
+        return print('Do something about this modder! ID: '..source) -- Add a better mod check if you want. I'm not going to
+    end                                                              -- 
 
     local totalAmountofLoot = 0
     local rarity = Config.Loot.Common
